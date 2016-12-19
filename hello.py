@@ -4,4 +4,6 @@ from opsdroid.skills import match_crontab
 
 @match_crontab('* * * * *')
 async def speaking_clock(opsdroid):
+    connector = opsdroid.default_connector
+    message = Message("", connector.default_room, None, connector)
     await message.respond(strftime("The time is now %H:%M", gmtime()))
