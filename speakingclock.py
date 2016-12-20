@@ -10,7 +10,7 @@ async def speaking_clock(opsdroid):
     connector = opsdroid.default_connector
 
     # Create an empty message to respond to
-    message = Message(None, None, connector.default_room, connector)
+    message = Message("", None, connector.default_room, connector)
 
     # Respond with the current time
     await message.respond(strftime("The time is now %H:%M", gmtime()))
