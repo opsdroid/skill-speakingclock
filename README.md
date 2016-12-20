@@ -1,6 +1,6 @@
-# opsdroid skill hello
+# opsdroid skill speakingclock
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to tell you the time every hour.
 
 ## Requirements
 
@@ -12,21 +12,7 @@ None.
 
 ## Usage
 
-#### `hello`
-
-Says hello to the user.
-
-> user: hello
->
-> opsdroid: Hi user
-
-#### `goodbye`
-
-Says goodbye to the user.
-
-> user: bye
->
-> opsdroid: Bye user
+This skill will trigger automatically every hour.
 
 ## License
 
