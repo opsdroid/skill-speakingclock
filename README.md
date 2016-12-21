@@ -14,6 +14,8 @@ None.
 
 This skill will trigger automatically every hour.
 
+> "The time is now 18:00"
+
 ## License
 
 GNU General Public License Version 3 (GPLv3)
