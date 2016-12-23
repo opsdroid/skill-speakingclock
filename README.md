@@ -16,6 +16,12 @@ This skill will trigger automatically every hour.
 
 > "The time is now 18:00"
 
+You can also ask directly.
+
+#### `what time is it?`
+
+> "The time is now 10:02"
+
 ## License
 
 GNU General Public License Version 3 (GPLv3)
