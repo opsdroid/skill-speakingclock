@@ -1,11 +1,11 @@
 from time import gmtime, strftime
 
-from opsdroid.skills import match_crontab, match_regex
+from opsdroid.matchers import match_crontab, match_regex
 from opsdroid.message import Message
 
 @match_crontab('0 * * * *')
 @match_regex(r"what time is it\?")
-async def speaking_clock(opsdroid, message):
+async def speaking_clock(opsdroid, config, message):
 
     # Get the default connector
     connector = opsdroid.default_connector
