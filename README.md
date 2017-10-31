@@ -21,7 +21,3 @@ You can also ask directly.
 #### `what time is it?`
 
 > "The time is now 10:02"
-
-## License
-
-GNU General Public License Version 3 (GPLv3)
