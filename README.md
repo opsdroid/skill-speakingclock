@@ -4,20 +4,28 @@ A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to tell you the tim
 
 ## Requirements
 
-None.
+[pytz](http://pytz.sourceforge.net/)
 
 ## Configuration
 
-None.
+
+```
+skills:
+  speakingclock:
+    timezone: "America/Chicago"  # Optional local timezone
+                                 # If not set will use opdroid.config.timezone if set,
+                                 # otherwise UTC
+    show_utc: false              # Optional, show UTC time with local
+```
 
 ## Usage
 
 This skill will trigger automatically every hour.
 
-> "The time is now 18:00"
+> "The time is now 18:00 [CST]"
 
 You can also ask directly.
 
 #### `what time is it?`
 
-> "The time is now 10:02"
+> "it is 10:02 [CST]"
